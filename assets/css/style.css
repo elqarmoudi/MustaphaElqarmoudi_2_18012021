@@ -1,0 +1,589 @@
+/***************navbar*********/
+
+.menu {
+    font-family: "Raleway", "Sans serif";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 2.5pc;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: auto 1em;
+    align-items: center;
+    flex-basis: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    margin: 0 1rem;
+    padding: 1.5rem 5%;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu .Activités a {
+    color: black;
+}
+
+.menu .heberg a {
+    color: #79aeff;
+    border-top: 2px solid #79aeff;
+    margin: 0rem;
+    padding: 1.8rem;
+}
+
+.inscrire a {
+    color: #0065FC;
+}
+
+/***************body1********************/
+form {
+    margin: 0rem;
+    width: 10px;
+    height: 40px;
+    display: flex;
+    flex: wrap;
+    margin: 2px;
+}
+
+form i {
+    background-color: #f5f5f5;
+    margin: 0rem;
+    padding: 0.5rem;
+    border: solid #f5f5f5;
+    border-radius: 1rem 0 0 1rem;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    margin: 0px;
+    padding: 1px;
+    box-shadow: #0065FC;
+    border-radius: 1em 1rem 1rem 1rem;
+}
+
+form button {
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0rem 1rem 1rem 0rem;
+    border: none;
+}
+
+form input {
+    opacity: 0.33;
+}
+
+.recherche2 {
+    visibility: hidden;
+}
+
+/****************icones********/
+.options {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between 0.5rem;
+    margin: -3rem;
+    padding: 0.5rem;
+}
+
+.options h2 {
+    margin: 1rem;
+    padding: 2.2rem;
+    font-family: "Raleway", "Sans serif";
+}
+
+.options div :hover {
+    background-color: beige
+}
+
+.options div {
+    margin: 3rem;
+    border: 1px solid grey;
+    border-radius: 5rem;
+    padding: 0rem;
+    background-attachment: fixed;
+}
+
+.options div i {
+    border: solid #DEEBFF;
+    border-radius: 120%;
+    padding: 0.5rem;
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
+.options div strong {
+    margin: 0.5rem;
+}
+
+p i {
+    color: #DEEBFF;
+    margin: 0.5rem;
+}
+
+/*****************main*************/
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    border-radius: 1rem 1rem 1rem 1rem;
+    background-color: #f2f2f2;
+    box-shadow: ivory;
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+article {
+    background-color: white;
+    width: 230px;
+    box-shadow: 0 0 15px grey;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+.parent1 {
+    display: flex;
+    margin: 0.5rem;
+    padding: 2.5px;
+}
+
+.parent2 {
+    display: flex;
+    margin: 0.5rem;
+}
+
+section i {
+    display: flex;
+    text-align: left;
+    color: #0065FC;
+}
+
+.image img {
+    width: 100%;
+    height: 100px;
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.text {
+    padding: 0rem;
+    margin: 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    background-color: #f2f2f2;
+    display: flex;
+    display: inline-block;
+    flex-direction: column bottom;
+    border-radius: 1rem 1rem 1rem 1rem;
+    margin: 0.5rem;
+    padding: 1.5rem;
+    width: 28%;
+}
+
+.grey {
+    color: #b1b1b1b1
+}
+
+.section2 .face {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.section2 .face .i1 {
+    align-self: center;
+    color: black;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.image1,
+img {
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.text1 {
+    padding: 0rem;
+    margin: 0rem;
+    width: 130%;
+    height: 150%;
+    align-self: flex-start;
+}
+
+.text_image {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem;
+    width: 90%;
+    height: 9rem;
+}
+
+.section2 img {
+    width: 70%;
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.section3 h2 {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.section3 {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.section3 .photo {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.Vieux_port {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: flex-start;
+    inset-inline: left;
+}
+
+.section3 article h3 {
+    padding: 0.5rem;
+}
+
+.Vieux_port img {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    height: 25rem;
+}
+
+.section3 .self1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Fort_de_pomégues {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: flex-start;
+    inset-inline: left;
+}
+
+.Fort_de_pomégues img {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    height: 10.5rem;
+}
+
+.Ile_du_frioul {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: flex-end;
+}
+
+.Ile_du_frioul img {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    height: 8.5rem;
+}
+
+.Parc_National_des_Calanques {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: flex-start;
+}
+
+.Parc_National_des_Calanques img {
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    height: 25rem;
+}
+
+.section3 .self2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Notre-Dame-de-la-Garde {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: baseline;
+}
+
+.Notre-Dame-de-la-Garde img {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    width: 0rem;
+    height: 9.5rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+}
+
+.Parc_Longchamp {
+    margin: 1rem;
+    padding: 0rem;
+    align-self: baseline;
+    align-self: flex-end;
+}
+
+.Parc_Longchamp img {
+    width: 9.5rem;
+    height: 10rem;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+
+}
+
+/******************************footer***********/
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.bloc {
+    margin: 5rem;
+}
+
+.bloc ul {
+    list-style: none;
+    padding: 0rem;
+    color: #F2F2F2;
+}
+
+.bloc ul a {
+    text-decoration: none;
+    color: grey;  
+    margin: 0rem;
+}
+
+/**************************media queris******************/
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
+@media screen and (max-width: 600px) {
+
+    /************************nav**************************/
+    .menu {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: -1.5rem;
+        padding: 1rem;
+    }
+
+    .inscrire {
+        order: 1;
+        margin: -1rem;
+        padding: 2.5rem;
+    }
+
+    .menu ul {
+        margin: -3rem;
+        order: 2;
+        border-width: 2.5rem;
+        padding: 2rem;
+    }
+
+    .menu .heberg a {
+        border-top: none;
+    }
+
+    .menu ul .heberg {
+        border-bottom: 3px solid #73a8fa;
+        width: 100%;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .menu ul .activ {
+        border-bottom: 3px solid grey;
+        width: 100%;
+        margin: 1rem;
+        padding: 0.5rem;
+        left: 15%;
+        position: relative;
+    }
+
+    h1 {
+        padding: -2rem;
+    }
+
+    .recherche1 {
+        visibility: hidden;
+    }
+
+    /**********************recherche hebergement********************/
+    .recherche2 {
+        visibility: visible;
+        margin: 0.5rem;
+        display: flex;
+        flex: wrap; 
+    }
+
+    form i {
+        background-color: #f5f5f5;
+        margin: 0rem;
+        padding: 0.5rem;
+        border: solid #f5f5f5;
+        border-radius: 1rem 0rem 0rem 1rem;
+        text-decoration: none;
+    }
+
+    .recherche2 button {
+        visibility: hidden;
+    }
+
+    .recherche2 .search i {
+        background-color: #0065FC;
+        color: white;
+        margin: -0.2rem;
+        padding: 0.75rem;
+        height: 40%;
+        text-decoration: none;
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+    }
+
+    /********************************filtres****************************/
+
+    .options {
+        display: block;     
+         margin: -2.5rem;
+        padding: 0.5rem;
+    }
+    .options h2{
+        margin: 2.5rem;
+        padding: -1rem;
+    }
+    
+    .Economique {
+        width: 29%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .familial {
+        width: 25.5%;
+        align-content: flex-end;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .Romantique {
+        width: 28%;
+        flex-wrap: wrap;
+        left: 1rem;
+    }
+
+    .Animaux {
+        width: 40%;
+    }
+
+    /****************************************main************************/
+    .section2 {
+        margin: -0.5rem;
+        width: 120%;
+        order: -1;
+        border-radius: 0;
+    }
+
+    .section1 {
+        background-color: white;
+    }
+
+    .section1 .parent1 {
+        display: block;
+    }
+
+    article {
+        margin: 1rem;
+        width: auto;
+    }
+
+    .section1 .parent2 {
+        display: block;
+    }
+
+    .section3 .photo {
+        display: block;
+        margin: 0rem;
+        width: 100%;
+    }
+
+    .Parc_National_des_Calanques img {
+        height: 8.5rem;
+    }
+
+    .Vieux_port img {
+        height: 8.5rem;
+    }
+
+    .Fort_de_pomégues {
+        width: 91%;
+    }
+
+    .Fort_de_pomégues img {
+        height: 8.5rem;
+    }
+
+    /**************************footer******************************/
+    footer {
+        display: block;
+        margin: -0.5rem;
+        padding: 0.5rem;
+    }
+
+    .bloc {
+        margin: 0.5rem;
+    }
+
+
+
+
+
+
+
+
+}
