@@ -223,7 +223,6 @@ section i {
     padding: 0rem;
 }
 
-
 img {
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
@@ -373,7 +372,6 @@ img {
     padding: 0rem;
     width: 100%;
     border-radius: 0.5rem 0.5rem 0rem 0rem;
-
 }
 
 /******************************footer***********/
@@ -408,23 +406,24 @@ footer {
     }
 
     .menu ul {
-        order: 1; 
-        border-bottom: 3px solid #DCDCDC; 
+        order: 1;
+        border-bottom: 3px solid #DCDCDC;
         margin: 0rem;
         display: flex;
         justify-content: space-between;
     }
 
     .menu .heberg a {
-        border-top: none; 
+        border-top: none;
     }
-    .menu .heberg{
+
+    .menu .heberg {
         border-bottom: 3px solid blue;
         width: 50%;
         margin: -0.5rem;
         align-items: flex-start;
     }
-    
+
     .recherche1 {
         visibility: hidden;
     }
@@ -462,24 +461,27 @@ footer {
 
     /********************************filtres****************************/
     .options {
-        display: flex; 
-        flex-wrap: wrap;    
+        display: flex;
+        flex-wrap: wrap;
     }
-    
     
     .options div {
-        margin: 1.5rem; 
+        margin: 1.5rem;
     }
-    .Economique{
+
+    .Economique {
         width: 40%;
     }
-    .Romantique{
+
+    .Romantique {
         width: 35%;
     }
-    .familial{
+
+    .familial {
         width: 25%;
     }
-    .Animaux{
+
+    .Animaux {
         width: 50%;
     }
 
