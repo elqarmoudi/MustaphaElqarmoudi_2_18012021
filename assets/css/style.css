@@ -89,29 +89,27 @@ form input {
 }
 
 /****************icones********/
+h2 {
+    font-family: "Raleway", "Sans serif";
+    margin: 0rem;
+}
+
 .options {
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    justify-content: space-between 0.5rem;
-    align-items: center;
-
-}
-
-.options h2 {
-    font-family: "Raleway", "Sans serif";
 }
 
 .options div:hover {
-    background-color: beige
+    background-color: azure
 }
 
 .options div {
-    margin: 3rem;
+    margin: 1rem;
     border: 1px solid grey;
-    border-radius: 5rem;
-    padding: 0rem;
-    background-attachment: fixed;
+    border-radius: 2rem;
+    align-items: flex-start;
+
 }
 
 .options div i {
@@ -225,7 +223,7 @@ section i {
     padding: 0rem;
 }
 
-.image1,
+
 img {
     border-radius: 1rem 1rem 0 0;
     object-fit: cover;
@@ -407,48 +405,26 @@ footer {
     /************************nav**************************/
     .menu {
         flex-wrap: wrap;
-        text-align: center;
-        margin: -1.5rem;
-        padding: 1rem;
-    }
-
-    .inscrire {
-        order: 1;
-        margin: -1rem;
-        padding: 2.5rem;
     }
 
     .menu ul {
-        margin: -3rem;
-        order: 2;
-        border-width: 2.5rem;
-        padding: 2rem;
+        order: 1; 
+        border-bottom: 3px solid #DCDCDC; 
+        margin: 0rem;
+        display: flex;
+        justify-content: space-between;
     }
 
     .menu .heberg a {
-        border-top: none;
+        border-top: none; 
     }
-
-    .menu ul .heberg {
-        border-bottom: 3px solid #73a8fa;
-        width: 100%;
-        margin: 0.5rem;
-        padding: 0.5rem;
+    .menu .heberg{
+        border-bottom: 3px solid blue;
+        width: 50%;
+        margin: -0.5rem;
+        align-items: flex-start;
     }
-
-    .menu ul .activ {
-        border-bottom: 3px solid grey;
-        width: 100%;
-        margin: 1rem;
-        padding: 0.5rem;
-        left: 15%;
-        position: relative;
-    }
-
-    h1 {
-        padding: -2rem;
-    }
-
+    
     .recherche1 {
         visibility: hidden;
     }
@@ -485,39 +461,26 @@ footer {
     }
 
     /********************************filtres****************************/
-
     .options {
-        display: block;
-        margin: -2.5rem;
-        padding: 0.5rem;
+        display: flex; 
+        flex-wrap: wrap;    
     }
-
-    .options h2 {
-        margin: 2.5rem;
-        padding: -1rem;
+    
+    
+    .options div {
+        margin: 1.5rem; 
     }
-
-    .Economique {
-        width: 29%;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .familial {
-        width: 25.5%;
-        align-content: flex-end;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .Romantique {
-        width: 28%;
-        flex-wrap: wrap;
-        left: 1rem;
-    }
-
-    .Animaux {
+    .Economique{
         width: 40%;
+    }
+    .Romantique{
+        width: 35%;
+    }
+    .familial{
+        width: 25%;
+    }
+    .Animaux{
+        width: 50%;
     }
 
     /****************************************main************************/
